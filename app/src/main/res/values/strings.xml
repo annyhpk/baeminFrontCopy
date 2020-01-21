@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">배달의 민족</string>
+    <string name="title_activity_sub_main">주소란(예정)</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">배달의 민족</string>
+    <string name="nav_header_subtitle">고마운분 출두요~!   등급별혜택</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">공지사항</string>
+    <string name="menu_gallery">이벤트</string>
+    <string name="menu_slideshow">1:1문의</string>
+    <string name="menu_tools">환경설정</string>
+    <string name="menu_share">광고문의</string>
+    <string name="menu_send">고객안심센터</string>
+    <string name="menu_ver">현재 버전 0.0.1</string>
+    <string name="address">주소 등록</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="nick">회원가입해줘요!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

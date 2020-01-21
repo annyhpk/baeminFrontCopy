@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:includeFontPadding="false"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/note_bold"
+            android:text="가게 소개"
+            android:textColor="#323232"
+            android:textSize="20dp"
+            android:layout_marginBottom="3dp"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/note_medium"
+                android:text="언제나 좋은음식으로 고객님들께 작은만족을 드릴수 있도록 정성을 다하겠습니다."
+                android:textColor="#323232"
+                android:includeFontPadding="false"
+                android:textSize="15dp"
+                android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:includeFontPadding="false"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/note_bold"
+            android:text="영업 정보"
+            android:textColor="#323232"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/note_medium"
+                android:text="운영시간       평일 - 낮 10:00 ~ 오후 11:40"
+                android:textColor="#323232"
+                android:includeFontPadding="false"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/fragment_information_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/note_medium"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/note_medium"
+                android:text="휴무일           연중무휴"
+                android:includeFontPadding="false"
+                android:textColor="#323232"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/fragment_information_dayoff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/note_medium"
+                android:includeFontPadding="false"
+                android:layout_weight="1"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/note_medium"
+                android:includeFontPadding="false"
+                android:text="전화번호       050-5555-5555"
+                android:textColor="#323232"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/fragment_information_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/note_medium"
+                android:layout_weight="1"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:includeFontPadding="false"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/note_bold"
+            android:text="위치 정보"
+            android:textColor="#323232"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="배달지역  삼례 전 지역"
+            android:layout_marginBottom="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/note_medium"
+                android:text="배달지역        2000원 우석대"
+                android:textColor="#323232"
+                android:layout_marginBottom="5dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/fragment_information_del_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/note_medium"
+                android:layout_weight="1"
+                android:textSize="15dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:fontFamily="@font/note_medium"
+                android:text="사업자 주소   전라북도 삼례읍 우석대학교"
+                android:textColor="#323232"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/fragment_information_rest_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/note_medium"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

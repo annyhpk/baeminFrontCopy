@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".subMainActivity"
+    tools:showIn="@layout/app_bar_sub_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="wrap_content">
+
+            <ImageButton
+                android:id="@+id/koreanfood"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/koreanfood"/>
+
+            <ImageButton
+                android:id="@+id/boonsik"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/boonsik"/>
+
+            <ImageButton
+                android:id="@+id/cafe_dessert"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/cafe_dessert"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent">
+
+            <ImageButton
+                android:id="@+id/donggas"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/donggas"/>
+
+            <ImageButton
+                android:id="@+id/chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/chicken"/>
+
+            <ImageButton
+                android:id="@+id/pizza"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/pizza"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent">
+            <ImageButton
+                android:id="@+id/jjajang"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/jjajang"/>
+
+            <ImageButton
+                android:id="@+id/zokbal"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/zokbal" />
+
+            <ImageButton
+                android:id="@+id/nightfood"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/nightfood"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent">
+
+            <ImageButton
+                android:id="@+id/zzim"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/zzim"/>
+
+            <ImageButton
+                android:id="@+id/tosirak"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/tositak"/>
+
+            <ImageButton
+                android:id="@+id/fastfood"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/fastfood" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent">
+
+            <ImageButton
+                android:id="@+id/franchise"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/franchise"/>
+
+            <ImageButton
+                android:id="@+id/ranking"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ranking"/>
+
+            <ImageButton
+                android:id="@+id/button15"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:clickable="false"
+                app:srcCompat="@drawable/empty"/>
+        </TableRow>
+    </TableLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
